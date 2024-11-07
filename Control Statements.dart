@@ -7,7 +7,6 @@ void main() {
   }
   ali:
   for (var i = 1; i <= 10; i++) {
-    mohamed:
     for (var j = 1; j <= 10; j++) {
       if (i == 4) {
         continue ali;

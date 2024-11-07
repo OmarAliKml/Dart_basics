@@ -19,6 +19,6 @@ void main() {
     }
   }
   for (var i in a) {
-    // print (i);
+    print (i);
   }
 }
