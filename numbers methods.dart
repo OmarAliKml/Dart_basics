@@ -7,12 +7,12 @@ void main() {
   print(x.isNaN);
   print(x.isNegative);
   print(x.abs());
-  
+
   var y = 8.5;
   print(y.round());
   print(y.floor());
   print(y.truncate());
   print(y.ceil());
-  
+
   print(9.remainder(2));
 }

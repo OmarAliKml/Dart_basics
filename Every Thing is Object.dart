@@ -1,4 +1,3 @@
-
 void main() {
   var al = A();
   print(al.runtimeType);

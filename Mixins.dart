@@ -1,11 +1,11 @@
-
 mixin A {
   void info();
-  }
+}
 
 mixin B {
   void info2();
 }
+
 abstract class C {
   void info3();
 }
@@ -33,14 +33,3 @@ void main() {
   d.info2();
   d.info3();
 }
-
-
-
-
-
-
-
-
-
-
-

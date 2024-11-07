@@ -1,4 +1,3 @@
-
 void main() {
   var a = A<int, double>();
   a.x = 10;
@@ -18,5 +17,5 @@ void main() {
 class A<T, E> {
   late T x;
   late E y;
-  info(T a, E b){} 
+  info(T a, E b) {}
 }

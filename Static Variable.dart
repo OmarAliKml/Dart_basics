@@ -1,7 +1,3 @@
-void main() {
+void main() {}
 
-}
-
-class data{
-    
-}
+class data {}

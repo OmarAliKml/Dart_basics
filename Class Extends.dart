@@ -4,7 +4,7 @@ class Games {
   }
 }
 
- class PUBG extends Games {
+class PUBG extends Games {
   void goToGamesClass() {
     print('Done');
   }
@@ -13,5 +13,4 @@ class Games {
 void main() {
   var result = PUBG();
   result.gameName();
-
 }

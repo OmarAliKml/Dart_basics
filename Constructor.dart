@@ -1,5 +1,9 @@
 class Human {
-  void info({required String fName, required String lName, required int age, required int length}) {
+  void info(
+      {required String fName,
+      required String lName,
+      required int age,
+      required int length}) {
     print("First Name = $fName");
     print("Last Name = $lName");
     print("Age = $age");
