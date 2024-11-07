@@ -1,5 +1,5 @@
  void main()  {
-    var name='hassan';
+    var name='Mohammed';
     print(name.isEmpty);
     print(name.isNotEmpty);
     print(name.toLowerCase);
@@ -9,7 +9,7 @@
     print(name.replaceFirst('a', "ali"));
     print(name.replaceAll('a', "ali"));
     
-    var text="    H#a#s#s#a#n";
+    var text="    m#o#h#a#m#m#e#d";
     var v1 =text.split("#");
     print (v1);
     var v2=v1.join("#");

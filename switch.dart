@@ -4,7 +4,7 @@ void main(){
         case 'mohamed':
         print ("2");
         break;
-        case 'hassan':
+        case 'Ahmed':
         print ("3");
         break;
         case 'ali':

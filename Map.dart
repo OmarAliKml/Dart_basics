@@ -3,8 +3,8 @@ void main() {
         'phone number':'01913743774',
         'age':'24',
         'ID':'17546356215651',
-        'name':'vairous 7x',
-        'user name':'v7x',
+        'name':'Mohammed',
+        'user name':'M554',
         'password':'Admin1234',
     };
     print(data['ID']);

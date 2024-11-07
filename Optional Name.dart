@@ -1,5 +1,5 @@
 void main() {
-    print("vairous 7x - flutter course");
+    print("Dart Basics");
     print(numbers(5, 10));
 }
 int numbers(

@@ -1,15 +1,12 @@
-
-
 class Human {
+  String fName; // Instance variable instead of static
 
-static String fName;
-Human([fName]){
-
-print("First Name=$fName");
+  Human(this.fName) { // Using shorthand for constructor parameter
+    print("First Name = $fName");
+  }
 }
-}
 
-main() {
-var h1= new Human("ali");
-var h2= new Human("ahmed");
+void main() {
+  var h1 = Human("ali");
+  var h2 = Human("ahmed");
 }

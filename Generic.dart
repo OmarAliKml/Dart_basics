@@ -16,7 +16,7 @@ void main() {
 }
 
 class A<T, E> {
-  T x;
-  E y;
+  late T x;
+  late E y;
   info(T a, E b){} 
 }

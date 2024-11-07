@@ -4,9 +4,9 @@ void main() {
     info();
 }
 void name() {
-    print('my name is v7x');
-    String cuntry = 'Egypt';
-    print(cuntry);
+    print('my name is Mohammed');
+    String country = 'Egypt';
+    print(country);
 }
 void info() {
     print('my age is 24');

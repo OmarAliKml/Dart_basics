@@ -7,7 +7,7 @@ void main() {
 }
 
 List<String> info_tito = [
-        'Name: v7x'
+        'Name: Mohammed'
         ' Age: 24 years'
         ' Country: Egypt'
         ' Id: 8469245u89-5'
