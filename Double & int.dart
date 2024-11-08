@@ -1,10 +1,17 @@
 void main() {
-  int v = 5;
-  int b = 10;
+  // Initialize integer variables
+  int v = 5;  // First variable
+  int b = 10; // Second variable
+
+  // Calculate the sum of v and b
   int x = v + b;
-  //  print(x);
+  print("Sum of v and b: $x"); // Print the sum
+
+  // Initialize a double variable
   double m = 2.5;
-  //  print(x + m);
+  print("Initial value of m: $m"); // Print the initial value of m
+
+  // Add 2.5 to the current value of m
   m = m + 2.5;
-  print(m);
+  print("Updated value of m after adding 2.5: $m"); // Print the updated value of m
 }

@@ -1,14 +1,22 @@
 import 'dart:math';
 
 void main() {
-  for (var i = 1; i <= 10; i--) {
-    var degree = new Random().nextInt(100);
-    print("degree=$degree");
+  // Create a Random object to generate random numbers
+  Random random = Random();
 
+  // Loop 10 times to generate degrees
+  for (var i = 1; i <= 10; i++) {
+    // Generate a random degree between 0 and 99
+    var degree = random.nextInt(100);
+    print("degree = $degree");
+
+    // Exit the loop if the degree is less than 40
     if (degree < 40) {
+      print("Degree is below 40, exiting the loop.");
       break;
     }
 
+    // Determine the letter grade based on the degree
     if (degree >= 90) {
       if (degree >= 95) {
         print("+A");

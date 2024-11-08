@@ -1,23 +1,26 @@
+// Class representing a Human with basic attributes
 class Human {
-  var fName;
-  var lName;
-  var age;
-  var length;
+  // Define attributes with appropriate types
+  String fName; // First Name
+  String lName; // Last Name
+  int age;      // Age
+  double length; // Length in centimeters
 
+  // Constructor to initialize the Human attributes
+  Human({required this.fName, required this.lName, required this.age, required this.length});
+
+  // Method to display the information about the Human
   void info() {
     print("First Name = $fName");
     print("Last Name = $lName");
     print("Age = $age");
-    print("Length = $length");
+    print("Length = $length cm");
   }
 }
 
 void main() {
-  var h1 = Human(); // 'new' is optional in Dart
-  h1.fName = "ali";
-  h1.lName = "ahmed";
-  h1.age = 20;
-  h1.length = 190;
+  // Create an instance of the Human class with initial values
+  var h1 = Human(fName: "Ali", lName: "Ahmed", age: 20, length: 190.0);
 
   // Call the info method to display the information
   h1.info();

@@ -11,18 +11,23 @@ int add(int a, int b) {
  * It has width and height properties.
  */
 class Rectangle {
-  final double width;
-  final double height;
+  final double width;  // The width of the rectangle
+  final double height; // The height of the rectangle
 
-  Rectangle(this.width, this.height); // Constructor
+  // Constructor to initialize width and height
+  Rectangle(this.width, this.height);
 
   /// This method calculates the area of the rectangle.
+  /// Returns the area as a double.
   double area() {
     return width * height; // Area calculation
   }
 }
 
 void main() {
+  // Create a Rectangle instance with width 5.0 and height 10.0
   var rect = Rectangle(5.0, 10.0);
-  print('Area of the rectangle: ${rect.area()}'); // Output the area
+
+  // Output the area of the rectangle
+  print('Area of the rectangle: ${rect.area()}');
 }
