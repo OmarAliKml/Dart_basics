@@ -50,11 +50,17 @@ For example:
 dart main.dart
 ```
 
-## 🤝 Contributing
+## 👏 Contribution
+We welcome all Pull Requests (PRs) to help improve this repo and appreciate any contributions towards making it better. To ensure a smooth contribution process, please follow these guidelines:
+
+- Ensure that your PR addresses an existing issue or proposes a new feature that is aligned with the repo's goals.
+- Before submitting a PR, please check to make sure that your changes do not introduce any new bugs or conflicts with existing code.
+- Include a clear and concise description of your changes in your PR, along with any relevant documentation or tests.
+- Be responsive to feedback and review comments from the maintainers and community members.
+
+Thank you for your interest in contributing to our repo and helping us make it better!
 
 Feel free to fork this repository, make improvements, and submit a pull request.
-
-## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
