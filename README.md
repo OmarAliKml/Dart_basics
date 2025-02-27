@@ -62,8 +62,6 @@ Thank you for your interest in contributing to our repo and helping us make it b
 
 Feel free to fork this repository, make improvements, and submit a pull request.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## ⭐ Give Us a Star
 
 If you find this repository useful, please consider giving it a star on GitHub! ⭐
